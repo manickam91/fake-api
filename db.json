@@ -1,5 +1,173 @@
 {
-  "users":{
-      "name":"xyz"
+  "vehicle": [
+    {
+      "id": 1,
+      "vehicleType": "SUV",
+      "vehicleModel": "RAV4",
+      "pricing": "$1.75/hr + $0.35/mi",
+      "fuelType": "Gasoline",
+      "seats": 5,
+      "doors": 4,
+      "A/C": "Yes",
+      "fuelConsumption": "27 MPG",
+      "gearType": "Automatic",
+      "bodyType": "SUV",
+      "engineType": "4 Cyl - 2.50L",
+      "pricingPerHour": 1.75
+    },
+    {
+      "id": 2,
+      "vehicleType": "Car",
+      "vehicleModel": "RAV4 PRIME",
+      "pricing": "$1.75/hr + $0.35/mi",
+      "fuelType": "Gasoline",
+      "seats": 6,
+      "doors": 4,
+      "A/C": "Yes",
+      "fuelConsumption": "27 MPG",
+      "gearType": "Automatic",
+      "bodyType": "SUV",
+      "engineType": "4 Cyl - 2.50L",
+      "pricingPerHour": 2.75
+    },
+    {
+      "id": 3,
+      "vehicleType": "Car",
+      "vehicleModel": "Highlander",
+      "pricing": "$1.75/hr + $0.35/mi",
+      "fuelType": "Gasoline",
+      "seats": 7,
+      "doors": 4,
+      "A/C": "Yes",
+      "fuelConsumption": "21 MPG",
+      "gearType": "Automatic",
+      "bodyType": "SUV",
+      "engineType": "3.50 L V6 DOHC 24V",
+      "pricingPerHour": 1.75
+    },
+    {
+      "id": 4,
+      "vehicleType": "Truck",
+      "vehicleModel": "4Runner",
+      "pricing": "$1.75/hr + $0.35/mi",
+      "fuelType": "Gasoline",
+      "seats": 5,
+      "doors": 4,
+      "A/C": "Yes",
+      "fuelConsumption": "16MPG",
+      "gearType": "Automatic",
+      "bodyType": "SUV",
+      "engineType": "6 Cyl - 4 L V6",
+      "pricingPerHour": 1.75
+    },
+    {
+      "id": 5,
+      "vehicleType": "Crossover",
+      "vehicleModel": "Sequoia",
+      "pricing": "$1.75/hr + $0.35/mi",
+      "fuelType": "Gasoline",
+      "seats": 7,
+      "doors": 5,
+      "A/C": "Yes",
+      "fuelConsumption": "13 MPG",
+      "gearType": "Automatic",
+      "bodyType": "SUV",
+      "engineType": "5.70 L V8 DOHC 32V",
+      "pricingPerHour": 1.75
+    },
+    {
+      "id": 6,
+      "vehicleType": "Hybrid",
+      "vehicleModel": "Sequoia",
+      "pricing": "$1.75/hr + $0.35/mi",
+      "fuelType": "Gasoline",
+      "seats": 7,
+      "doors": 5,
+      "A/C": "Yes",
+      "fuelConsumption": "13 MPG",
+      "gearType": "Automatic",
+      "bodyType": "SUV",
+      "engineType": "5.70 L V8 DOHC 32V",
+      "pricingPerHour": 1.75
+    },
+    {
+      "id": 7,
+      "vehicleType": "Hybrid",
+      "vehicleModel": "Swift",
+      "pricing": "$1.75/hr + $0.35/mi",
+      "fuelType": "Gasoline",
+      "seats": 7,
+      "doors": 5,
+      "A/C": "Yes",
+      "fuelConsumption": "13 MPG",
+      "gearType": "Automatic",
+      "bodyType": "SUV",
+      "engineType": "5.70 L V8 DOHC 32V",
+      "pricingPerHour": 1.75
+    },
+    {
+      "vehicleType": "SUV",
+      "vehicleModel": "RAV4 Hybrid",
+      "pricing": "$1.75/hr + $0.35/mi",
+      "fuelType": "Gasoline",
+      "seats": 7,
+      "doors": 5,
+      "fuelConsumption": "13 MPG",
+      "gearType": "Automatic",
+      "bodyType": "SUV",
+      "engineType": "5.70 L V8 DOHC 32V",
+      "pricingPerHour": 1.75,
+      "id": 8
+    },
+    {
+      "vehicleType": "Car",
+      "vehicleModel": "Desire",
+      "pricing": "$1.75/hr + $0.35/mi",
+      "fuelType": "Gasoline",
+      "seats": 7,
+      "doors": 5,
+      "fuelConsumption": "13 MPG",
+      "gearType": "Automatic",
+      "bodyType": "SUV",
+      "engineType": "5.70 L V8 DOHC 32V",
+      "pricingPerHour": 1.75,
+      "id": 9
     }
+  ],
+  "location": [
+    {
+      "id": 1,
+      "location": "250 Hartford Avenue, Bellingham MA 2019"
+    },
+    {
+      "id": 2,
+      "location": "700 Oak Street, Brockton MA 2301"
+    },
+    {
+      "id": 2,
+      "location": "337 Russell St, Hadley MA 1035"
+    }
+  ],
+  "type": [
+    {
+      "id": 1,
+      "vehicleType": "Car"
+    },
+    {
+      "id": 2,
+      "vehicleType": "Crossover"
+    },
+    {
+      "id": 3,
+      "vehicleType": "Hybrid"
+    },
+    {
+      "id": 4,
+      "vehicleType": "SUV"
+    },
+    {
+      "id": 5,
+      "vehicleType": "Truck"
+    }
+  ]
 }
